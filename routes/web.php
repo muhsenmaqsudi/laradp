@@ -17,4 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/users', 'UserController@index');
+Route::get('users', [\App\Http\Controllers\User\UserController::class, 'index']);
+Route::get('users/{user}/confirm', \App\Http\Controllers\User\ConfirmUserController::class);
+
+Route::resource('photos.comments', \App\Http\Controllers\User\UserController::class)->shallow();

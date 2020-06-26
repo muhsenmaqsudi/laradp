@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Repository\Eloquent\Base;
+namespace App\Repositories\Eloquent\Base;
 
 
 use Illuminate\Database\Eloquent\Model;

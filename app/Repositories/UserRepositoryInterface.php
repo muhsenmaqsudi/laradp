@@ -1,10 +1,10 @@
 <?php
 
 
-namespace App\Repository;
+namespace App\Repositories;
 
 
-use App\Repository\Eloquent\Base\EloquentRepositoryInterface;
+use App\Repositories\Eloquent\Base\EloquentRepositoryInterface;
 use Illuminate\Support\Collection;
 
 interface UserRepositoryInterface extends EloquentRepositoryInterface

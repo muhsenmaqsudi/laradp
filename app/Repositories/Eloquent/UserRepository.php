@@ -1,11 +1,11 @@
 <?php
 
 
-namespace App\Repository\Eloquent;
+namespace App\Repositories\Eloquent;
 
 
-use App\Repository\Eloquent\Base\BaseRepository;
-use App\Repository\UserRepositoryInterface;
+use App\Repositories\Eloquent\Base\BaseRepository;
+use App\Repositories\UserRepositoryInterface;
 use App\User;
 use Illuminate\Support\Collection;
 
